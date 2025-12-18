@@ -87,7 +87,7 @@ export function Header() {
             <span className="sr-only">Search</span>
           </Button>
           
-          <ThemeToggle className="hidden md:flex" />
+          <ThemeToggle />
           
           <Button variant="ghost" size="icon" className="rounded-full hover:bg-[#2563EB]/10">
             <User className="h-5 w-5 text-foreground" />

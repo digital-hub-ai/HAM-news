@@ -44,24 +44,24 @@ export function ParticleBackground() {
       speedY: number;
       color: string;
       
-      constructor() {
-        this.x = Math.random() * canvas.width;
-        this.y = Math.random() * canvas.height;
+      constructor(canvasWidth: number, canvasHeight: number) {
+        this.x = Math.random() * canvasWidth;
+        this.y = Math.random() * canvasHeight;
         this.size = Math.random() * 2 + 0.5;
         this.speedX = Math.random() * 1 - 0.5;
         this.speedY = Math.random() * 1 - 0.5;
         this.color = `rgba(${Math.floor(Math.random() * 100 + 155)}, ${Math.floor(Math.random() * 100 + 155)}, ${Math.floor(Math.random() * 255)}, ${Math.random() * 0.5 + 0.1})`;
       }
       
-      update() {
+      update(canvasWidth: number, canvasHeight: number) {
         this.x += this.speedX;
         this.y += this.speedY;
         
-        if (this.x > canvas.width || this.x < 0) {
+        if (this.x > canvasWidth || this.x < 0) {
           this.speedX = -this.speedX;
         }
         
-        if (this.y > canvas.height || this.y < 0) {
+        if (this.y > canvasHeight || this.y < 0) {
           this.speedY = -this.speedY;
         }
       }
@@ -77,7 +77,7 @@ export function ParticleBackground() {
     
     // Create particles
     for (let i = 0; i < particleCount; i++) {
-      particles.push(new Particle());
+      particles.push(new Particle(canvas.width, canvas.height));
     }
     
     // Animation loop
@@ -109,7 +109,7 @@ export function ParticleBackground() {
       
       // Update and draw particles
       for (let i = 0; i < particles.length; i++) {
-        particles[i].update();
+        particles[i].update(canvas.width, canvas.height);
         particles[i].draw();
       }
       

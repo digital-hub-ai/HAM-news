@@ -1001,7 +1001,7 @@ const articleData = {
     isBreaking: false,
     isPremium: false,
     views: "22.4K",
-    likes: "1.1K",
+    likes: "11.1K",
     comments: "156",
     region: "Americas",
     tags: ["supreme court", "privacy", "digital rights", "constitution", "civil liberties"],
@@ -1904,133 +1904,6 @@ const articleData = {
       }
     ]
   },
-  "tech-giants-announce-major-job-creation-initiative-in-texas": {
-    id: "tech-giants-announce-major-job-creation-initiative-in-texas",
-    title: "Tech Giants Announce Major Job Creation Initiative in Texas",
-    excerpt: "Apple, Google, and Microsoft pledge to create 25,000 new positions in Austin and Dallas-Fort Worth metro areas over next three years.",
-    content: `
-      <p class="text-lg leading-relaxed mb-6">In a joint announcement today, Apple, Google, and Microsoft revealed plans to establish major new operations centers in Texas, collectively committing to create 25,000 high-paying technology jobs across the Austin and Dallas-Fort Worth metropolitan areas over the next three years. The initiative represents one of the largest coordinated corporate expansion efforts in recent memory and underscores Texas's growing prominence as a technology hub.</p>
-      
-      <div class="my-8 p-6 bg-[#0F172A] rounded-xl border border-[#64748B]/30">
-        <h3 class="text-xl font-bold text-[#8B5CF6] mb-4">Job Creation Breakdown</h3>
-        <ul class="list-disc pl-6 space-y-2 text-[#E2E8F0]">
-          <li>Apple: 10,000 new positions</li>
-          <li>Google: 8,000 new positions</li>
-          <li>Microsoft: 7,000 new positions</li>
-          <li>Total Investment: $12.5 billion</li>
-          <li>Average Salary: $145,000</li>
-        </ul>
-      </div>
-      
-      <p class="text-lg leading-relaxed mb-6">Apple CEO Tim Cook emphasized the strategic importance of Texas during a press conference in Austin, stating, "Texas offers an exceptional combination of business-friendly policies, world-class universities, and a thriving innovation ecosystem. Our investment will focus on developing next-generation artificial intelligence technologies and expanding our cloud infrastructure capabilities." The iPhone manufacturer plans to construct two new facilities in the Austin area, representing a $5.2 billion investment.</p>
-      
-      <blockquote class="border-l-4 border-[#8B5CF6] pl-6 my-8 italic text-[#E2E8F0]">
-        "This collaborative approach among industry leaders demonstrates confidence in Texas's long-term economic prospects and talent pipeline."
-        <footer class="mt-4 text-[#64748B]">— Governor Greg Abbott, Texas</footer>
-      </blockquote>
-      
-      <p class="text-lg leading-relaxed mb-6">Google's CEO Sundar Pichai highlighted the company's focus on machine learning and quantum computing research in its new Dallas facility. "Texas has emerged as a nexus for technological advancement, and our presence will strengthen both the local economy and our global R&D capabilities," he said. Google's $3.8 billion investment will create approximately 8,000 positions, with emphasis on engineering and research roles.</p>
-      
-      <p class="text-lg leading-relaxed mb-6">Microsoft Chairman Brad Smith announced that the company's new Austin campus will house teams working on Azure cloud services and enterprise software solutions. "Our commitment to Texas reflects our belief in the state's potential to lead America's next wave of technological innovation," Smith noted. The Redmond-based giant's $3.5 billion investment will generate 7,000 new jobs, with recruitment beginning in early 2026.</p>
-      
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-        <Card className="bg-[#0F172A]/50 border border-[#64748B]/30">
-          <CardHeader>
-            <CardTitle className="text-[#10B981]">Economic Impact</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div class="space-y-4">
-              <div>
-                <div class="flex justify-between mb-1">
-                  <span class="text-[#E2E8F0]">Direct Jobs</span>
-                  <span class="text-[#10B981]">25,000</span>
-                </div>
-                <div class="w-full bg-[#64748B]/30 rounded-full h-2.5">
-                  <div class="bg-[#10B981] h-2.5 rounded-full" style={{width: "100%"}}></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-1">
-                  <span class="text-[#E2E8F0]">Indirect Jobs</span>
-                  <span class="text-[#10B981]">45,000+</span>
-                </div>
-                <div class="w-full bg-[#64748B]/30 rounded-full h-2.5">
-                  <div class="bg-[#10B981] h-2.5 rounded-full" style={{width: "90%"}}></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-1">
-                  <span class="text-[#E2E8F0]">Tax Revenue</span>
-                  <span class="text-[#10B981]">$850M/year</span>
-                </div>
-                <div class="w-full bg-[#64748B]/30 rounded-full h-2.5">
-                  <div class="bg-[#10B981] h-2.5 rounded-full" style={{width: "85%"}}></div>
-                </div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-        
-        <Card className="bg-[#0F172A]/50 border border-[#64748B]/30">
-          <CardHeader>
-            <CardTitle className="text-[#F59E0B]">Location Details</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div class="space-y-4">
-              <div class="flex justify-between items-center">
-                <span class="text-[#E2E8F0]">Austin Campus</span>
-                <span class="font-bold text-white">15,000 jobs</span>
-              </div>
-              <div class="flex justify-between items-center">
-                <span class="text-[#E2E8F0]">Dallas Facility</span>
-                <span class="font-bold text-white">10,000 jobs</span>
-              </div>
-              <div class="flex justify-between items-center">
-                <span class="text-[#E2E8F0]">Construction Start</span>
-                <span class="font-bold text-white">Q2 2026</span>
-              </div>
-              <div class="flex justify-between items-center">
-                <span class="text-[#E2E8F0]">Full Operation</span>
-                <span class="font-bold text-white">2029</span>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-      
-      <p class="text-lg leading-relaxed">The announcement has significant implications for Texas's economy and the broader technology landscape. The influx of high-skilled workers is expected to drive demand for housing, services, and supporting industries, potentially transforming both Austin and Dallas-Fort Worth into premier global technology centers. Local universities report increased enrollment in computer science and engineering programs, anticipating the growing demand for technical talent.</p>
-    `,
-    category: "Business",
-    author: "Michael Torres",
-    authorRole: "San Francisco Bureau",
-    authorBio: "Technology correspondent specializing in corporate strategy and innovation trends.",
-    date: "December 17, 2025",
-    readTime: "8 min read",
-    image: "/placeholder.svg?height=600&width=1200",
-    isBreaking: false,
-    isPremium: true,
-    views: "18.7K",
-    likes: "1,204",
-    comments: "89",
-    region: "Americas",
-    tags: ["technology", "jobs", "investment", "corporate expansion", "Texas"],
-    relatedArticles: [
-      {
-        id: "federal-reserve-holds-interest-rates-steady-amid-inflation-concerns",
-        title: "Federal Reserve Holds Interest Rates Steady Amid Inflation Concerns",
-        excerpt: "Central bank maintains current rate levels as consumer price indicators show signs of stabilization in key sectors.",
-        category: "Politics",
-        date: "Dec 17, 2025"
-      },
-      {
-        id: "us-china-trade-talks-show-positive-progress-ahead-of-summit",
-        title: "US-China Trade Talks Show Positive Progress Ahead of Summit",
-        excerpt: "Diplomatic sources indicate breakthrough agreements on technology transfer and intellectual property protections.",
-        category: "International",
-        date: "Dec 17, 2025"
-      }
-    ]
-  },
   "german-renewable-energy-capacity-reaches-new-milestone": {
     id: "german-renewable-energy-capacity-reaches-new-milestone",
     title: "German Renewable Energy Capacity Reaches New Milestone",
@@ -2419,17 +2292,15 @@ export default function ArticlePage({ params }: { params: { id: string } }) {
   const [article, setArticle] = useState<any>(null);
   const [liked, setLiked] = useState(false);
   const [bookmarked, setBookmarked] = useState(false);
-  // Unwrap the params promise
-  const unwrappedParams = use(params);
 
   useEffect(() => {
     // Simulate loading article data
-    console.log('Looking for article with ID:', unwrappedParams.id);
+    console.log('Looking for article with ID:', params.id);
     console.log('Available articles:', Object.keys(articleData));
-    const article = articleData[unwrappedParams.id as keyof typeof articleData] || null;
+    const article = articleData[params.id as keyof typeof articleData] || null;
     console.log('Found article:', article);
     setArticle(article);
-  }, [unwrappedParams.id]);
+  }, [params.id]);
 
   if (!article) {
     return (
